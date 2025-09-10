@@ -5,16 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>FourC Trading – Matías Casales</title>
   <meta name="description" content="FourC Trading – Financial and Investment Solutions by Matías Casales">
-  <meta property="og:title" content="FourC Trading – Matías Casales">
-  <meta property="og:description" content="Financial, Capital, and Investment solutions worldwide.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://www.fourctrading.com">
-  <meta property="og:image" content="images/hero.jpg">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+  <!-- Header -->
   <header>
-    <div class="logo">FourC Trading</div>
+    <div class="logo">
+      <img src="images/logo.png" alt="FourC Trading Logo">
+    </div>
     <nav>
       <ul>
         <li><a href="#home">Home</a></li>
@@ -26,35 +24,67 @@
     </nav>
   </header>
 
+  <!-- Hero Slider -->
   <section id="home" class="hero">
-    <h1>We Invest. We Build. We Grow.</h1>
-    <p>FourC Trading – Empowering global financial opportunities with strategic solutions.</p>
+    <div class="hero-slide active" style="background-image: url('images/hero1.jpg');">
+      <div class="overlay">
+        <h1>We Build Anywhere!</h1>
+        <p>FourC Trading – Real Estate Division</p>
+      </div>
+    </div>
+    <div class="hero-slide" style="background-image: url('images/hero2.jpg');">
+      <div class="overlay">
+        <h1>We Invest Worldwide!</h1>
+        <p>FourC Trading – Investment Division</p>
+      </div>
+    </div>
+    <div class="hero-slide" style="background-image: url('images/hero3.jpg');">
+      <div class="overlay">
+        <h1>We Provide Solutions!</h1>
+        <p>FourC Trading – Capital Division</p>
+      </div>
+    </div>
   </section>
 
+  <!-- About -->
   <section id="about">
     <h2>About Us</h2>
-    <p>Passion leads to success. At FourC Trading, we are dedicated to providing financial strategies that empower our clients worldwide. Founded by Matías Casales, our mission is to bring clarity, trust, and innovation into every partnership.</p>
+    <p>
+      Passion leads to success. At FourC Trading, we are dedicated to providing financial strategies that empower our clients worldwide. 
+      Founded by Matías Casales, our mission is to bring clarity, trust, and innovation into every partnership.
+    </p>
   </section>
 
+  <!-- Divisions -->
   <section id="divisions">
     <h2>Our Divisions</h2>
+
     <div class="division">
-      <h3>Investment Division</h3>
-      <p>Focused on global opportunities, providing clients with innovative strategies to maximize returns and manage risks.</p>
-      <a href="#contact" class="btn">Get Connected</a>
+      <img src="images/investment.jpg" alt="Investment Division">
+      <div class="division-text">
+        <h3>Investment Division</h3>
+        <p>Focused on global opportunities, providing clients with innovative strategies to maximize returns and manage risks.</p>
+      </div>
     </div>
-    <div class="division">
-      <h3>Strategy & Advisory Division</h3>
-      <p>Delivering market insights and tailored advisory services to help clients make informed decisions with confidence.</p>
-      <a href="#contact" class="btn">Book a Call</a>
+
+    <div class="division reverse">
+      <img src="images/advisory.jpg" alt="Advisory Division">
+      <div class="division-text">
+        <h3>Strategy & Advisory Division</h3>
+        <p>Delivering market insights and tailored advisory services to help clients make informed decisions with confidence.</p>
+      </div>
     </div>
+
     <div class="division">
-      <h3>Capital Solutions Division</h3>
-      <p>We provide structured capital solutions, helping individuals and organizations grow and achieve long-term success.</p>
-      <a href="#contact" class="btn">Learn More</a>
+      <img src="images/capital.jpg" alt="Capital Division">
+      <div class="division-text">
+        <h3>Capital Solutions Division</h3>
+        <p>We provide structured capital solutions, helping individuals and organizations grow and achieve long-term success.</p>
+      </div>
     </div>
   </section>
 
+  <!-- Services -->
   <section id="services">
     <h2>Our Services</h2>
     <div class="service">
@@ -71,6 +101,7 @@
     </div>
   </section>
 
+  <!-- Contact -->
   <section id="contact">
     <h2>Contact Us</h2>
     <form action="#" method="post">
@@ -85,6 +116,7 @@
     <p>Email: info@fourctrading.com</p>
   </section>
 
+  <!-- Footer -->
   <footer>
     <p>&copy; 2025 FourC Trading – All rights reserved.</p>
     <p>Note: FourC Trading operates independently and is not affiliated with any other company of similar name.</p>
